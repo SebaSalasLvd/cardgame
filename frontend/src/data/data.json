@@ -1,0 +1,500 @@
+[
+  {
+    "description": "Se le pidió al practicante recién contratado rehacer su último commit. Descubrió git rebase… y accidentalmente eliminó los últimos 5 commits de su supervisor. El supervisor ahora medita profundamente para no llorar.",
+    "activity": "Obstáculo",
+    "path": "faces/0_1.svg",
+    "number": 1,
+    "title": "1 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "El equipo decidió ‘optimizar’ el build. Activaron una flag experimental. El CI ahora tarda 45 minutos y suena como un motor de avión intentando despegar.",
+    "activity": "Obstáculo",
+    "path": "faces/0_2.svg",
+    "number": 2,
+    "title": "2 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "Marketing pidió cambiar el color del botón de verde a verde-menta-pantone-214-C. Después de cinco cambios, nadie recuerda cuál era el original. La landing ahora parece una ensalada cromática.",
+    "activity": "Obstáculo",
+    "path": "faces/0_3.svg",
+    "number": 3,
+    "title": "3 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "El producto ‘se cae’ misteriosamente cada 15 minutos. Resulta que era el cron job del QA que estaba probando el botón de ‘Eliminar todo’.",
+    "activity": "Obstáculo",
+    "path": "faces/0_4.svg",
+    "number": 4,
+    "title": "4 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "El diseñador compartió un nuevo mockup… en Figma… con 97 páginas… y 643 variantes del mismo botón. El equipo llora en silencio mientras intenta encontrar cuál es la versión final.",
+    "activity": "Obstáculo",
+    "path": "faces/0_5.svg",
+    "number": 5,
+    "title": "5 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "Un deploy fallido activó un rollback. El rollback fallido activó un rollback del rollback. El servidor entró en un bucle existencial y decidió dejar de responder.",
+    "activity": "Obstáculo",
+    "path": "faces/0_6.svg",
+    "number": 6,
+    "title": "6 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "Se habilitó logging en modo DEBUG en producción. Ahora la base de datos pesa lo mismo que una copia entera de Wikipedia.",
+    "activity": "Obstáculo",
+    "path": "faces/0_7.svg",
+    "number": 7,
+    "title": "7 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "El PO pidió un pequeño ajuste: ‘solo agranden el logo’. El logo ocupa ahora el 80% de la pantalla. Los clientes creen que es un anuncio invasivo.",
+    "activity": "Obstáculo",
+    "path": "faces/0_8.svg",
+    "number": 8,
+    "title": "8 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "La landing funciona perfecto… salvo en Internet Explorer. El equipo ahora intenta implementar flexbox sin flexbox.",
+    "activity": "Obstáculo",
+    "path": "faces/0_9.svg",
+    "number": 9,
+    "title": "9 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "En plena demo, el servidor decidió hacer un update automático. Ahora todos miran una pantalla negra que dice ‘Instalando actualización 3 de 127’.",
+    "activity": "Obstáculo",
+    "path": "faces/0_10.svg",
+    "number": 10,
+    "title": "10 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "Un bug misterioso afecta solo a un usuario… que casualmente es el CTO. La prioridad pasó mágicamente de ‘baja’ a ‘¡todo está mal!’.",
+    "activity": "Obstáculo",
+    "path": "faces/0_11.svg",
+    "number": 11,
+    "title": "11 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "La startup está lista para lanzar. Todo perfecto… excepto que alguien olvidó renovar el dominio. Un chico de 14 años lo compró para hacer un blog de Minecraft.",
+    "activity": "Obstáculo",
+    "path": "faces/0_12.svg",
+    "number": 12,
+    "title": "12 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "Wola",
+    "activity": "Obstáculo",
+    "path": "faces/0_13.svg",
+    "number": 13,
+    "title": "13 de picas",
+    "efecto": "-5 puntos",
+    "suit": "spades"
+  },
+  {
+    "description": "Un visitante entró a la landing por accidente, le pareció tan genial que terminó convirtiéndose en cliente. Aún no sabe qué compró, pero está feliz.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_1.svg",
+    "number": 1,
+    "title": "1 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Dos usuarios llegaron compartido en un foro. La landing cargó tan rápido que pensaron que era magia negra tecnológica.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_2.svg",
+    "number": 2,
+    "title": "2 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Tres amigos estaban comparando landing pages para hacer memes. Cuando vieron la tuya, quedaron encantados. ‘Demasiado buena para un meme’, dijeron, mientras se registraban.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_3.svg",
+    "number": 3,
+    "title": "3 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Cuatro clientes entraron solo para ver el modo oscuro. Les gustó tanto que hicieron zoom para admirar el contraste. Era tan elegante que no pudieron resistirse al botón “Comenzar ahora”.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_4.svg",
+    "number": 4,
+    "title": "4 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Cinco testers encontraron un bug gracioso que hacía bailar el logo. En vez de reportarlo, lo grabaron, lo viralizaron y todos terminaron siendo clientes. El logo ya tiene club de fans.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_5.svg",
+    "number": 5,
+    "title": "5 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Seis usuarios llegaron porque la landing aparecía en primera posición en Google… bajo la búsqueda ‘¿cómo sobrevivir a un deploy en viernes?’. Les gustó la vibra y se registraron.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_6.svg",
+    "number": 6,
+    "title": "6 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Siete personas ingresaron solo por curiosidad al ver que la landing cargaba más rápido que sus pensamientos. Quedaron tan impresionadas que hicieron click en todo lo que pudieron.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_7.svg",
+    "number": 7,
+    "title": "7 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "El presi compartió la página en redes sociales. Cree que esta landing es la mejor que ha visto en su vida.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_8.svg",
+    "number": 8,
+    "title": "8 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Nueve visitantes llegaron porque un influencer dijo que ‘la landing vibra alto’. Nadie entendió qué quiso decir, pero todos se registraron.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_9.svg",
+    "number": 9,
+    "title": "9 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Farkas entró por curiosidad a la página. Le gustó tanto la landing que no solo se convirtió en cliente: la compartió en todas sus redes. Trece clientes llegaron instantáneamente. El servidor casi colapsa de alegría.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_10.svg",
+    "number": 10,
+    "title": "10 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Un equipo entero de once personas estaba buscando inspiración para su propio producto. Se enamoraron de tu landing. Se registraron para encontrar ideas.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_11.svg",
+    "number": 11,
+    "title": "11 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Doce clientes llegaron porque un bot recomendó tu landing por error en un hilo de astrología. Al parecer, tu producto es compatible con todos los signos.",
+    "activity": "Agradecimiento",
+    "path": "faces/1_12.svg",
+    "number": 12,
+    "title": "12 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "Wola",
+    "activity": "Agradecimiento",
+    "path": "faces/1_13.svg",
+    "number": 13,
+    "title": "13 de corazones",
+    "efecto": "+5 puntos",
+    "suit": "hearts"
+  },
+  {
+    "description": "El CTO para ahorrar tiempo quiere que el equipo cree un “sistema de notificaciones”. Para eso, se le ocurre que cada desarrollador dibuje tres íconos diferentes (campana, alerta y mensaje) en una hoja, luego seleccionará uno al azar de cada uno para implementarlo.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_1.svg",
+    "number": 1,
+    "title": "1 de tréboles",
+    "efecto": "Terminar los tres íconos en menos de 3 minutos. +15 puntos o -10 puntos.",
+    "suit": "clubs"
+  },
+  {
+    "description": "Feature de exportación. Los jugadores deben recortar un rectángulo y transformarlo en un sobre de papel súper básico (doblar bordes y cerrar). Pueden buscar en internet cómo hacerlo.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_2.svg",
+    "number": 2,
+    "title": "2 de tréboles",
+    "efecto": "Completar el sobre en 3 minutos. +15 puntos o -10 puntos",
+    "suit": "clubs"
+  },
+  {
+    "description": "El CEO de la empresa decide que es momento de internacionalizarse. Cada desarrollador debe crear un origami de avión de papel, antes de terminar escriban el nombre de un país al que les gustaría exportar el producto. Pueden buscar en internet cómo hacer el avión.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_3.svg",
+    "number": 3,
+    "title": "3 de tréboles",
+    "efecto": "Completar en 3 minutos +15 puntos si lo completan, o -20 si se rinden, bonus de +5 puntos si no se repiten los países.",
+    "suit": "clubs"
+  },
+  {
+    "description": "El CEO de la empresa cree que el nombre de la empresa no es lo suficientemente llamativo. Cada desarrollador debe escribir 1 nombre nuevo en una hoja de papel y luego votar en secreto cuál les gusta más.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_4.svg",
+    "number": 4,
+    "title": "4 de tréboles",
+    "efecto": "+15 puntos si hay una mayoría clara, -10 si hay algún empate",
+    "suit": "clubs"
+  },
+  {
+    "description": "El equipo de marketing de la empresa está preocupado por el atractivo de la página. Todos los desarrolladores deben dibujar en una sola hoja de papel un pikachu de memoria.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_5.svg",
+    "number": 5,
+    "title": "5 de tréboles",
+    "efecto": "Completar en 3 minutos +15 puntos si se parece, -10 si dibujaron un digimon, bonus +5 si no buscaron en internet.",
+    "suit": "clubs"
+  },
+  {
+    "description": "El CEO de la empresa decide que es momento de internacionalizarse. Cada desarrollador debe crear un origami de un barco de papel, antes de terminar escriban el nombre de un país al que les gustaría exportar el producto. Pueden buscar en internet cómo hacer el barco.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_6.svg",
+    "number": 6,
+    "title": "6 de tréboles",
+    "efecto": "+15 puntos",
+    "suit": "clubs"
+  },
+
+  {
+    "description": "El equipo debe crear un “sistema de notificaciones”. Para eso, cada jugador debe dibujar tres íconos diferentes (campana, alerta y mensaje) y recortarlos con las tijeras.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_7.svg",
+    "number": 7,
+    "title": "7 de tréboles",
+    "efecto": "Terminar los tres íconos en menos de 3 minutos. +15 puntos o -10 puntos",
+    "suit": "clubs"
+  },
+  {
+    "description": "Feature de exportación. Los jugadores deben recortar un rectángulo y transformarlo en un sobre de papel súper básico (doblar bordes y cerrar). Pueden buscar en internet cómo hacerlo.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_8.svg",
+    "number": 8,
+    "title": "8 de tréboles",
+    "efecto": "Completar el sobre en 3 minutos. +15 puntos o -10 puntos",
+    "suit": "clubs"
+  },
+  {
+    "description": "El CEO de la empresa decide que es momento de internacionalizarse. Cada desarrollador debe crear un origami de avión de papel, antes de terminar escriban el nombre de un país al que les gustaría exportar el producto. Pueden buscar en internet cómo hacer el avión.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_9.svg",
+    "number": 9,
+    "title": "9 de tréboles",
+    "efecto": "Completar en 3 minutos +15 puntos si lo completan, o -20 si se rinden, bonus de +5 puntos si no se repiten los países.",
+    "suit": "clubs"
+  },
+  {
+    "description": "El CEO de la empresa cree que el nombre de la empresa no es lo suficientemente llamativo. Cada desarrollador debe escribir 1 nombre nuevo en una hoja de papel y luego votar en secreto cuál les gusta más.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_10.svg",
+    "number": 10,
+    "title": "10 de tréboles",
+    "efecto": "+15 puntos si hay una mayoría clara, -10 si hay algún empate",
+    "suit": "clubs"
+  },
+  {
+    "description": "El equipo de marketing de la empresa está preocupado por el atractivo de la página. Todos los desarrolladores deben dibujar en una sola hoja de papel un pikachu de memoria.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_11.svg",
+    "number": 11,
+    "title": "11 de tréboles",
+    "efecto": "Completar en 3 minutos +15 puntos si se parece, -10 si dibujaron un digimon, bonus +5 si no buscaron en internet.",
+    "suit": "clubs"
+  },
+  {
+    "description": "El CEO de la empresa decide que es momento de internacionalizarse. Cada desarrollador debe crear un origami de un barco de papel, antes de terminar escriban el nombre de un país al que les gustaría exportar el producto. Pueden buscar en internet cómo hacer el barco.",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_12.svg",
+    "number": 12,
+    "title": "12 de tréboles",
+    "efecto": "+15 puntos",
+    "suit": "clubs"
+  },
+  {
+    "description": "Wola",
+    "activity": "Funcionalidad: Feat",
+    "path": "faces/2_13.svg",
+    "number": 13,
+    "title": "13 de tréboles",
+    "efecto": "+15 puntos",
+    "suit": "clubs"
+  },
+  {
+    "description": "Tomar un tiempo para reflexionar el mini juego de las notificaciones. Discutan en equipo qué salió bien, qué salió mal y qué se puede mejorar para la próxima vez. El equipo llegó a un estilo parecido? Alguien pensó en un diseño completamente distinto?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_1.svg",
+    "number": 1,
+    "title": "1 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen sobre la experiencia de construir algo simple bajo presión. ¿Han vivido algo así cuando un jefe les dice 'es fácil, solo háganlo'?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_2.svg",
+    "number": 2,
+    "title": "2 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+
+  {
+    "description": "Reflexionen sobre cómo eligieron el país y si intentaron coordinar o darse pistas para no repetir. ¿Qué patrones vieron en la comunicación?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_3.svg",
+    "number": 3,
+    "title": "3 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen sobre el proceso de proponer y votar nombres. ¿Como se sintieron mientras se revelaban los votos? ¿Creen que la votación fue una buena forma de elegir el nombre?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_4.svg",
+    "number": 4,
+    "title": "4 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+
+  {
+    "description": "Reflexionen sobre cómo enfrentaron la incertidumbre de dibujar algo sin referencia. ¿Se parece a cuando un jefe les pide 'hagan algo atractivo' sin especificar nada?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_5.svg",
+    "number": 5,
+    "title": "5 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen que si más fácil o más difícil el barco que el avión. ¿Creen que se necesitaría más tiempo a si tuvieran que hacer un avión?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_6.svg",
+    "number": 6,
+    "title": "6 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen si la segunda vez resolvieron el ejercicio con más fluidez. ¿Hubo aprendizaje real o repitieron los mismos errores? ¿Alguien mejoró notablemente su proceso? ¿Qué dice esto sobre iterar rápido en un MVP comparado con hacerlo una sola vez?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_7.svg",
+    "number": 7,
+    "title": "7 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen si la presión del tiempo afectó la calidad del sobre. ¿Se enfocaron en hacerlo 'bien' o en cumplir? ¿Han vivido un escenario real donde el manager prioriza la fecha por sobre la calidad? ¿Cómo se sintieron y qué harían distinto?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_8.svg",
+    "number": 8,
+    "title": "8 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen sobre cómo manejaron el desafío de no repetir países. ¿Hubo comunicación efectiva o cada uno eligió por su cuenta? ¿Algún país se repitió igual? ¿Esto refleja algo del trabajo remoto o asincrónico del equipo?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_9.svg",
+    "number": 9,
+    "title": "9 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen sobre quién tomó la iniciativa en la conversación y quién se mantuvo callado. ¿Hubo desacuerdos? ¿Cómo los gestionaron? ¿Alguna situación recordó conflictos reales con un manager respecto a branding, naming o UX?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_10.svg",
+    "number": 10,
+    "title": "10 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen si se compararon con el resto. ¿Alguien se sintió juzgado o avergonzado? ¿Cómo reaccionó el equipo? ¿Esto se parece a cuando se evalúa un diseño o un PR y la persona siente que 'no da la talla'?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_11.svg",
+    "number": 11,
+    "title": "11 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Reflexionen sobre si el país que eligieron esta vez fue distinto. ¿Qué motivó el cambio? ¿Se coordinaron con alguien? ¿Esto se parece a priorizar nuevos mercados o features según datos y no por capricho?",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_12.svg",
+    "number": 12,
+    "title": "12 de diamantes",
+    "efecto": "+5 puntos discusión compartida entre equipos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Wola",
+    "activity": "Reflexión: Retrospectiva",
+    "path": "faces/3_13.svg",
+    "number": 13,
+    "title": "13 de diamantes",
+    "efecto": "+5 puntos, 2 minutos",
+    "suit": "diamonds"
+  },
+  {
+    "description": "Esta es una descripción muy muy graaaaandedadsda djasndkansdjkasnkjd jndsakjdn",
+    "activity": "Arreglo: Fix",
+    "path": "faces/4_1.svg",
+    "number": 1,
+    "title": "4_1",
+    "efecto": "+5 puntos, 2 minutos",
+    "suit": "special"
+  },
+  {
+    "description": "Esta es una descripción muy muy graaaaandedadsda djasndkansdjkasnkjd jndsakjdn",
+    "activity": "Arreglo: Fix",
+    "path": "faces/4_2.svg",
+    "number": 2,
+    "title": "4_2",
+    "efecto": "+15 puntos",
+    "suit": "special"
+  },
+  {
+    "description": "Esta es una descripción muy muy graaaaandedadsda djasndkansdjkasnkjd jndsakjdn",
+    "activity": "Arreglo: Fix",
+    "path": "faces/4_3.svg",
+    "number": 3,
+    "title": "4_3",
+    "efecto": "+15 puntos",
+    "suit": "special"
+  }
+]
