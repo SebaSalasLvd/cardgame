@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useLocation, Link } from 'react-router-dom'
+import { useLocation, Link} from 'react-router-dom'
 import Card from './Card'
 import cardsData from '../data/data.json'
 
@@ -8,6 +8,10 @@ const SUIT_MAP: Record<string, string> = {
   pica: 'spades',
   diamante: 'diamonds',
   trebol: 'clubs',
+}
+
+interface LocationState {
+  selectedSuit?: string;
 }
 
 const getStoredSuit = (): string | null => {
@@ -23,7 +27,7 @@ export const CardSection: React.FC = () => {
   const location = useLocation()
 
   useEffect(() => {
-    const navSuit = (location.state as any)?.selectedSuit ?? getStoredSuit()
+    const navSuit = (location.state as LocationState)?.selectedSuit ?? getStoredSuit()
     if (navSuit) {
       setSuit(navSuit)
       try {
@@ -41,7 +45,7 @@ export const CardSection: React.FC = () => {
     <section id="card-section" className="p-4 bg-indigo-950 min-h-screen text-white">
       <div className="flex justify-between items-center">
         <h3 className="text-lg font-semibold">Selector de carta</h3>
-        <Link to="/" className="text-xl text-gray-200">Volver</Link>
+        <Link to="/" className="text-lg text-gray-200 mb-4 p-2 bg-transparent border border-gray-300 rounded hover:bg-gray-700 transition-all">Volver</Link>
       </div>
 
       <p className="mt-4">
