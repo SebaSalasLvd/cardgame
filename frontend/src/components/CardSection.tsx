@@ -10,30 +10,31 @@ const SUIT_MAP: Record<string, string> = {
   trebol: 'clubs',
 }
 
+const getStoredSuit = (): string | null => {
+  try {
+    return sessionStorage.getItem('selectedSuit') ?? null
+  } catch (e) {
+    return null
+  }
+}
+
 export const CardSection: React.FC = () => {
   const [suit, setSuit] = useState<string | null>(null)
   const location = useLocation()
 
   useEffect(() => {
-    const navSuit = (location.state as any)?.selectedSuit
+    const navSuit = (location.state as any)?.selectedSuit ?? getStoredSuit()
     if (navSuit) {
       setSuit(navSuit)
       try {
         sessionStorage.setItem('selectedSuit', navSuit)
       } catch (e) {}
-      return
     }
-
-    try {
-      const stored = sessionStorage.getItem('selectedSuit')
-      if (stored) setSuit(stored)
-    } catch (e) {}
   }, [location.state])
 
-  const mappedSuit = suit ? SUIT_MAP[suit] ?? null : null
-
-  const filtered = mappedSuit
-    ? (cardsData as Array<any>).filter((c) => c.suit === mappedSuit).sort((a, b) => a.number - b.number)
+  const mappedSuit = suit ? SUIT_MAP[suit] : null
+  const filteredCards = mappedSuit
+    ? cardsData.filter((card) => card.suit === mappedSuit).sort((a, b) => a.number - b.number)
     : []
 
   return (
@@ -43,28 +44,25 @@ export const CardSection: React.FC = () => {
         <Link to="/" className="text-xl text-gray-200">Volver</Link>
       </div>
 
-      {!suit ? (
-        <p className="mt-4">No hay palo seleccionado. Haz click en un palo para empezar.</p>
-      ) : mappedSuit === null ? (
-        <p className="mt-4">El palo seleccionado (<strong className="capitalize">{suit}</strong>) no es válido.</p>
-      ) : (
-        <div className="mt-4">
-          <p>
-            Has seleccionado: <strong className="capitalize">{suit}</strong>
-          </p>
+      <p className="mt-4">
+        {!suit
+          ? 'No hay palo seleccionado. Haz click en un palo para empezar.'
+          : mappedSuit === null
+          ? `El palo seleccionado (${suit}) no es válido.`
+          : `Has seleccionado: ${suit}`
+        }
+      </p>
 
-          <div className="mt-3">
-            <div className="grid grid-cols-4 gap-3">
-              {filtered.map((card) => {
-                const file = String(card.path).split('/').pop() || card.path
-                return (
-                  <div key={card.title} className="flex items-center justify-center">
-                    <Card file={file} alt={`${card.title}`} className="mx-auto" size={120} />
-                  </div>
-                )
-              })}
-            </div>
-          </div>
+      {mappedSuit && (
+        <div className="mt-3 grid grid-cols-4 gap-3">
+          {filteredCards.map((card) => {
+            const file = card.path.split('/').pop() || card.path
+            return (
+              <div key={card.title} className="flex items-center justify-center">
+                <Card file={file} alt={card.title} className="mx-auto" size={120} />
+              </div>
+            )
+          })}
         </div>
       )}
     </section>
