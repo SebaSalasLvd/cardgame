@@ -15,15 +15,6 @@ export const About: React.FC = () => {
             entre <strong>1 y 3 minutos</strong> y busca hacer alusión a algún
             concepto de agilidad:
           </p>
-
-          <div className="mt-6 grid gap-2 text-lg">
-            <p>✔ Crear funcionalidades</p>
-            <p>✔ Lidiar con obstáculos reales</p>
-            <p>✔ Ganar clientes</p>
-            <p>✔ Fallar y mejorar rápidamente</p>
-            <p>✔ Lidiar con la deuda técnica</p>
-            <p>✔ Reflexionar, mejora continua</p>
-          </div>
         </section>
 
         <div className="bg-gray-800 border border-gray-700 shadow-lg rounded-2xl p-8 text-gray-100">
