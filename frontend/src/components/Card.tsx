@@ -44,7 +44,8 @@ export const Card: React.FC<Props> = React.memo(function Card({ file, alt, class
         alt={alt ?? meta?.title ?? file} 
         title={meta?.activity ?? undefined} 
         className={`object-contain cursor-pointer ${size ? `w-[${size}] h-auto` : ''} ${className ?? ''}`}
-        onClick={handleClick} 
+        onClick={handleClick}
+        loading="lazy"
       />
     </div>
   )
